@@ -29,7 +29,7 @@ setup(
     packages=[],
     url='',
     license='',
-    author='admin',
+    author='Kontiki AI',
     author_email='',
     include_package_data=True,
     zip_safe=True,
@@ -44,11 +44,12 @@ setup(
         'numpy==1.15.4',
         'jsonschema==2.6.0',
         'flashtext==2.7',
-        'Flask==0.12.2',
+        'Flask==0.12.4',
         'nltk==3.3',
         'scikit_learn==0.20.1',
         'tensorflow==1.12.0',
-        'fuzzywuzzy==0.17.0'
+        'fuzzywuzzy==0.17.0',
+        'python-Levenshtein==0.12.0'
         ],
     description=''
 )
