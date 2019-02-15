@@ -33,7 +33,7 @@ Output:
 
 ## Getting Started -
 
-Once AlterNLU is set up [see Setting Up](##setting-Up--), you can try it out in 4 simple steps.
+Once AlterNLU is set up [see Setting Up](#setting-Up--), you can try it out in 4 simple steps.
 
 * Get Training Data. [Recommended : Use Kontiki Console](https://console.kontikilabs.com)
 
