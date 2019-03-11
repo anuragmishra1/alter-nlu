@@ -32,8 +32,10 @@ def create_synonym_dictonary(val):
 
 # replace synonyms
 def multipleReplace(text, wordDict):
+    kp_replace = KeywordProcessor()
     for key in wordDict:
-        text = text.replace(key, wordDict[key])
+        kp_replace.add_keyword(key, wordDict[key])
+        text = kp_replace.replace_keywords(text)
     return text
 
 

@@ -15,7 +15,7 @@ def check_intent_count(val):
 def validate_json(val):    
     try:
         for item in val['intent_data']:
-            validate(item, intent_example_schema)
+            validate(item, intent_data_schema)
         for item in val['entity_data']:
             validate(item, entity_data_schema)
         validate(val['botName'], botName)

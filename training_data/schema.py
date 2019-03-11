@@ -1,6 +1,6 @@
 # training data json schema
 
-intent_example_schema = {
+intent_data_schema = {
     "type": "object",
     "properties": {
       "text": {
