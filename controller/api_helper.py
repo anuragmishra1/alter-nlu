@@ -1,4 +1,3 @@
-import json
 from training_data.data_validator import validate_json, check_intent_count
 from controller.loading import loader
 from controller.train import start_train

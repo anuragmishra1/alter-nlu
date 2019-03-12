@@ -15,9 +15,9 @@ def start_train(data):
         train, entity_extractor = no_entity_process_data(train)
     else:
         train, entity_extractor = process_data(train, entity)
-    word_max_length, word_vocab_size, word_Xtrain, ytrain, encoder, word_tokenizer = prepare(train)
-    final_model = model_def(word_max_length, word_vocab_size, train['intent'].unique())
-    save_metadata((intent_entity, entity_extractor, word_tokenizer, encoder, word_max_length))
+    word_max_length, word_vocab_size, word_Xtrain, ytrain, encoder, word_tokenizer, helper_tokens = prepare(train)
+    final_model = model_def(word_max_length, word_vocab_size, encoder.classes_)
+    save_metadata((intent_entity, entity_extractor, word_tokenizer, encoder, word_max_length, helper_tokens))
     mcc = Metrics()
     sss = StratifiedShuffleSplit(n_splits = 5, test_size = 0.2)
     print("> Training Intent Model")

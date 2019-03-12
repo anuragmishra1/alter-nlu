@@ -35,8 +35,8 @@ def multipleReplace(text, wordDict):
     kp_replace = KeywordProcessor()
     for key in wordDict:
         kp_replace.add_keyword(key, wordDict[key])
-        text = kp_replace.replace_keywords(text)
-    return text
+        mod_text = kp_replace.replace_keywords(text)
+    return mod_text
 
 
 # create derived training data

@@ -1,4 +1,3 @@
-import json
 from processing.preprocessing import create_spacy_clean
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
@@ -9,7 +8,7 @@ def get_intent(text, metadata, model):
     word_encoded_docs = metadata[2].texts_to_sequences(text_query)
     word_Xtest = pad_sequences(word_encoded_docs, maxlen=metadata[4], padding='post')
 
-    if max(word_Xtest[0]) != 3:
+    if len(set(word_Xtest[0])-set(metadata[5])) != 0:
         prediction = model.predict([word_Xtest])[0]
         if max(prediction) > 0.5:
             output = [metadata[3].classes_[list(prediction).index(max(prediction))], max(prediction)]

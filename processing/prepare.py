@@ -24,4 +24,6 @@ def prepare(val):
 
     # define word vocabulary size (Adding 1 because of reserved 0 index)
     word_vocab_size = len(word_tokenizer.word_index) + 1
-    return word_max_length, word_vocab_size, word_Xtrain, encoded_Y, encoder, word_tokenizer
+    
+    helper_tokens = (word_tokenizer.word_index['<UNK>'], word_tokenizer.word_index['<SOS>'], word_tokenizer.word_index['<EOS>'], 0)
+    return word_max_length, word_vocab_size, word_Xtrain, encoded_Y, encoder, word_tokenizer, helper_tokens
