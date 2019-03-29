@@ -33,4 +33,4 @@ def extract_info(data):
         entities = extract_entity(data['text'], metadata[1])
     else:
         entities = []
-    return {"intent": intent, "confidence": str(confidence), "entities": entities}
+    return {"intent": intent, "confidence": round(float(confidence), 4), "entities": entities}
