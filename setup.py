@@ -40,7 +40,7 @@ setup(
     cmdclass={'install': custom_install, 'develop': custom_develop},
     install_requires=[
         'pandas==0.23.4',
-        'spacy==2.0.18',
+        'spacy==2.1.3',
         'numpy==1.15.4',
         'jsonschema==2.6.0',
         'flashtext==2.7',
