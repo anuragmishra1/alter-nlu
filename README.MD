@@ -72,7 +72,7 @@ Latest Model will be deployed automatically once training get completed and read
 
     apt-get install python3.6
 
-    apt install python3-pip
+    apt-get install python3-pip
     ```
 * Setup Virtual Environment
     ```
