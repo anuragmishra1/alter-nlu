@@ -1,6 +1,7 @@
 import re
 import string
 import spacy
+from itertools import zip_longest
 
 from nltk.stem.snowball import SnowballStemmer
 
@@ -41,3 +42,9 @@ def create_spacy_lemma(val):
 def create_spacy_clean(val):
     clean_sentence = remove_pron(remove_punct(create_stem(create_spacy_lemma(val))).lower())
     return(clean_sentence)
+
+
+# remove adjacent duplicate tokens
+def remove_continuous_duplicates(val):
+    check_list = val.split()
+    return " ".join([i for i, j in zip_longest(check_list, check_list[1:]) if i != j])

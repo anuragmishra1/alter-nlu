@@ -2,7 +2,7 @@ import re
 import itertools
 import pandas as pd
 from flashtext import KeywordProcessor
-from processing.preprocessing import create_spacy_clean, create_stem
+from processing.preprocessing import create_spacy_clean, create_stem, remove_continuous_duplicates
 from helper_data.entity_dictionary import create_entity_dictionary
 
 
@@ -82,7 +82,8 @@ def process_data(val1, val2):
     # apply preprocessing function
     print("> Preprocessing")
     val3.text = val3.text.apply(create_spacy_clean)
-
+    val3.text = val3.text.apply(remove_continuous_duplicates)
+    
     # drop duplicate sentences(if any)
     val3.drop_duplicates(inplace=True)
 
