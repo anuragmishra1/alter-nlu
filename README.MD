@@ -104,7 +104,7 @@ Latest Model will be deployed automatically once training get completed and read
     ```
 * Install AlterNLU
     ```
-    git clone https://github.com/Kontikilabs/alter-nlu.git
+    git clone https://github.com/Kontikilabs/alter-nlu.git -b v1.0.0-beta
 
     cd alter-nlu
 
