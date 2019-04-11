@@ -7,8 +7,8 @@ from extractors.extract_entity import extract_entity
 
 # load bot models
 def load_all():
-    global metadata, model
-    metadata, model = loader()
+    global metadata, model, crfmodel
+    metadata, model, crfmodel = loader()
 
 
 # train and load continuously
@@ -17,9 +17,9 @@ def train_n_load(data):
         return {"error": "Invalid training data format!", "statusCode": 400}
     if check_intent_count(data):
         return {"error": "At least 2 intents required!", "statusCode": 400}
-    global metadata, model
+    global metadata, model, crfmodel
     start_train(data)
-    metadata, model = loader()
+    metadata, model, crfmodel = loader()
     return {"message": "Training Complete & Model Deployed Successfully!", "statusCode": 200}
 
 
@@ -30,7 +30,7 @@ def extract_info(data):
     except TypeError:
         return {"error": "No Bot Trained!", "statusCode": 400}
     if intent in metadata[0]:
-        entities = extract_entity(data['text'], metadata[1])
+        entities = extract_entity(data['text'], crfmodel, metadata[5], metadata[6])
     else:
         entities = []
     return {"intent": intent, "confidence": round(float(confidence), 4), "entities": entities}

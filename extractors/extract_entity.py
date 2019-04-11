@@ -1,21 +1,40 @@
-from fuzzywuzzy import process, fuzz
-from processing.preprocessing import create_spacy_clean
+import itertools
+import operator
+from processing.preprocessing import nlp, create_stem
+from entity_model.processing import remove_punct
+from entity_model.entity_featurizer import sent2features
 
 
-# Get entity from input query
-def extract_entity(text, dictionary):
-    entity_output = []
-    text = create_spacy_clean(text)
-    for user_entity in dictionary.extract_keywords(text):
-        output = {"value":str(user_entity[0]), "category":str(user_entity[1])}
-        if output not in entity_output:
-            entity_output.append({"value":str(user_entity[0]), "category":str(user_entity[1])})
+def get_org_lemma_pos_dep(val, used_punct, unused_punct):
+    ORG, LEMMA, POS, DEP = [], [], [], []
+    doc = nlp(remove_punct(val, used_punct, unused_punct))
+    for token in doc:
+        if token.lemma_ == "-PRON-":
+            LEMMA.append(token.text)
+        else:
+            LEMMA.append(create_stem(token.lemma_))
+        POS.append(token.pos_)
+        DEP.append(token.dep_)
+        ORG.append(token.text)
+    return ORG, (LEMMA, POS, DEP)
 
-    synonyms = list(dictionary.get_all_keywords().keys())
-    for synonym in process.extractBests(text, synonyms, score_cutoff=90, scorer=fuzz.token_set_ratio):
-        entities = dictionary.extract_keywords(synonym[0])
-        output = {"value":str(entities[0][0]), "category":str(entities[0][1])}
-        if output not in entity_output:
-            entity_output.append({"value":str(entities[0][0]), "category":str(entities[0][1])})
-    
-    return entity_output
+def query_feature(val, used_punct, unused_punct):
+    org, spacy_feature = get_org_lemma_pos_dep(val, used_punct, unused_punct)
+    lemma = spacy_feature[0]
+    return org, list(zip(lemma, spacy_feature[1], spacy_feature[2]))
+
+def extract_entity(val, crfmodel, used_punct, unused_punct, score=0.5,):
+    entities = []
+    features = query_feature(val, used_punct, unused_punct)
+    out = crfmodel.predict_marginals_single(sent2features(features[1]))
+    out = list(zip(out, features[0]))
+    out = list(map(lambda x : ((x[1],)+max(x[0].items(), key=operator.itemgetter(1))), out))
+    out = [list(group) for key, group in itertools.groupby(out, lambda x: x[1])]
+    for item in out:
+        entity = list(set(map(lambda x: x[1], item)))[0].split("$%&")
+        if entity != ['other']:
+            avg_score = sum(list(map(lambda x: x[2], item)))/len(list(map(lambda x: x[2], item)))
+            if avg_score > score:
+                selection = ' '.join(list(map(lambda x: x[0], item)))
+                entities.append(({"name": str(entity[1]), "value": str(entity[0]), "parsed_value": str(selection)}))
+    return entities

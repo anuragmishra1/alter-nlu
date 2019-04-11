@@ -6,9 +6,9 @@ from itertools import zip_longest
 from nltk.stem.snowball import SnowballStemmer
 
 # Load pretrained model
-# nlp = spacy.load('en')
-nlp = spacy.load('en', disable=['ner', 'parser'])
-nlp.add_pipe(nlp.create_pipe('sentencizer'))
+nlp = spacy.load('en')
+# nlp = spacy.load('en', disable=['ner', 'parser'])
+# nlp.add_pipe(nlp.create_pipe('sentencizer'))
 
 # Punctuation
 tr = str.maketrans(string.punctuation, ' '*len(string.punctuation))

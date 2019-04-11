@@ -1,31 +1,49 @@
-# AlterNLU - Open Source NLU Engine
+# AlterNLU - Open Source NLU Engine (beta)
 
-AlterNLU is an open source tool for building chatbot and AI assistant. It gives the developer a minimal approach to build an assistant or bot in production environment.
+AlterNLU is an open source tool for building chatbot and AI assistant. It gives the developer a minimal approach to build an assistant or bot.
 
 It converts natural language to structured data. Eg:
 
 Input:
 ```
-{"text": "i want few covers for my mobile and pillows. and two bed sheet"}
+{"text":"I want to buy a dell laptop below $500K and get it delivered to my address in Texas, 75457."}
 ```
 
 Output:
 ```
 {
-  "intent": "search_product",
-  "confidence": "0.9999974",
+  "intent": "purchase-request",
+  "confidence": 0.9484,
   "entities": [
     {
-      "value": "bedsheet",
-      "category": "product_type"
+      "name": "brand",
+      "parsed_value": "dell",
+      "value": "dell"
     },
     {
-      "value": "Mobile cover",
-      "category": "product_type"
+      "name": "item",
+      "parsed_value": "laptop",
+      "value": "laptop"
     },
     {
-      "value": "pillow covers",
-      "category": "product_type"
+      "name": "criteria",
+      "parsed_value": "below",
+      "value": "below"
+    },
+    {
+      "name": "price",
+      "parsed_value": "500k",
+      "value": "price range"
+    },
+    {
+      "name": "location",
+      "parsed_value": "texas",
+      "value": "city"
+    },
+    {
+      "name": "location",
+      "parsed_value": "75457",
+      "value": "pincode"
     }
   ]
 }

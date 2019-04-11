@@ -3,7 +3,6 @@ import itertools
 import pandas as pd
 from flashtext import KeywordProcessor
 from processing.preprocessing import create_spacy_clean, create_stem, remove_continuous_duplicates
-from helper_data.entity_dictionary import create_entity_dictionary
 
 
 # get stem, lemma of synonyms
@@ -89,15 +88,11 @@ def process_data(val1, val2):
 
     # shuffle tranining data
     val3 = val3.sample(frac=1).reset_index(drop=True)
-
-    # create entity dictionary
-    print("> Entity Dictionary")
-    entity_extractor = create_entity_dictionary(val2)
     
     # add EOS and SOS
     val3['text'] = val3['text'].apply(add_sos_eos)
 
-    return val3, entity_extractor
+    return val3
 
 
 # no entity process data
@@ -111,11 +106,8 @@ def no_entity_process_data(val1):
 
     # shuffle training data
     val1 = val1.sample(frac=1).reset_index(drop=True)
-
-    # create empty dictionary
-    entity_extractor = KeywordProcessor()
     
     # add EOS and SOS
     val1['text'] = val1['text'].apply(add_sos_eos)
 
-    return val1, entity_extractor
+    return val1
