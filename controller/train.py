@@ -19,7 +19,7 @@ def start_train(data):
     final_model = model_def(word_max_length, word_vocab_size, encoder.classes_)
     save_metadata((intent_entity, entity_extractor, word_tokenizer, encoder, word_max_length, helper_tokens))
     mcc = Metrics()
-    sss = StratifiedShuffleSplit(n_splits = 5, test_size = 0.2)
+    sss = StratifiedShuffleSplit(n_splits = 5, test_size = 0.3)
     print("> Training Intent Model")
     for train_index, test_index in sss.split(word_Xtrain, ytrain):
         X_train, X_test = word_Xtrain[train_index], word_Xtrain[test_index]
