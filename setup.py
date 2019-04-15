@@ -25,7 +25,7 @@ class custom_develop(develop):
 
 setup(
     name='ALTER NLU',
-    version='1.0.0',
+    version='1.0.0-beta',
     packages=[],
     url='',
     license='',
@@ -39,7 +39,7 @@ setup(
     },
     cmdclass={'install': custom_install, 'develop': custom_develop},
     install_requires=[
-        'pandas==0.23.4',
+        'pandas==0.24.2',
         'spacy==2.1.3',
         'numpy==1.15.4',
         'jsonschema==2.6.0',
@@ -49,7 +49,8 @@ setup(
         'scikit_learn==0.20.1',
         'tensorflow==1.12.0',
         'fuzzywuzzy==0.17.0',
-        'python-Levenshtein==0.12.0'
+        'python-Levenshtein==0.12.0',
+        'sklearn_crfsuite==0.3.6'
         ],
     description=''
 )

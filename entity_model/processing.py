@@ -5,7 +5,7 @@ flatten = lambda x: [item for sublist in x for item in sublist]
 
 def get_used_punct(val):
     used_punct = []
-    items = flatten(val['synonyms'].to_list())
+    items = flatten(val['synonyms'].tolist())
     for item in items:
         for item_ in item:
             if item_ in string.punctuation:
