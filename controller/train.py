@@ -6,7 +6,7 @@ from processing.prepare import prepare
 from intent_model.classifier import model_def
 from controller.saving import save_metadata
 from intent_model.validation import Metrics
-from entity_model.processing import get_used_unused_punct
+from entity_model.processing import get_used_unused_punct, punctuation
 from entity_model.entity_train import train_entity
 
 
@@ -20,10 +20,14 @@ def start_train(data):
         intent_train = process_data(intent_train, entity_data)
     word_max_length, word_vocab_size, word_Xtrain, ytrain, encoder, word_tokenizer, helper_tokens = prepare(intent_train)
     final_model = model_def(word_max_length, word_vocab_size, encoder.classes_)
-    used_punct, unused_punct = get_used_unused_punct(entity_data)  
+    if not entity_data.empty:
+        used_punct, unused_punct = get_used_unused_punct(entity_data)
+    else:
+        used_punct, unused_punct = '', punctuation  
     save_metadata((intent_entity, word_tokenizer, encoder, word_max_length, helper_tokens, used_punct, unused_punct))
-    print("> Training Entity Model")
-    train_entity(intent_data, entity_data, used_punct, unused_punct)
+    if not entity_data.empty:
+        print("> Training Entity Model")
+        train_entity(intent_data, entity_data, used_punct, unused_punct)
     mcc = Metrics()
     sss = StratifiedShuffleSplit(n_splits = 5, test_size = 0.3)
     print("> Training Intent Model")
