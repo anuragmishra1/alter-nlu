@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Alter NLU'
-copyright = '2019, Tanya Thakur'
-author = 'Tanya Thakur'
+copyright = '2019, Kontiki AI'
+author = 'Kontiki AI'
 
 # The short X.Y version
 version = '1.0.0'
@@ -143,7 +143,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'AlterNlu.tex', 'AlterNlu Documentation',
-     'Tanya Thakur', 'manual'),
+     'Kontiki AI', 'manual'),
 ]
 
 
