@@ -1,0 +1,3659 @@
+{
+	"intent_data": [
+		{
+			"text": "hello",
+			"intent": "greet",
+			"entities": []
+		},
+		{
+			"text": "hi",
+			"intent": "greet",
+			"entities": []
+		},
+		{
+			"text": "heya",
+			"intent": "greet",
+			"entities": []
+		},
+		{
+			"text": "wasup",
+			"intent": "greet",
+			"entities": []
+		},
+		{
+			"text": "hey there",
+			"intent": "greet",
+			"entities": []
+		},
+		{
+			"text": "boot up",
+			"intent": "greet",
+			"entities": []
+		},
+		{
+			"text": "Hello Oliver",
+			"intent": "greet",
+			"entities": []
+		},
+		{
+			"text": "exit",
+			"intent": "exit",
+			"entities": []
+		},
+		{
+			"text": "tata",
+			"intent": "exit",
+			"entities": []
+		},
+		{
+			"text": "bye",
+			"intent": "exit",
+			"entities": []
+		},
+		{
+			"text": "Cya",
+			"intent": "exit",
+			"entities": []
+		},
+		{
+			"text": "ttyl",
+			"intent": "exit",
+			"entities": []
+		},
+		{
+			"text": "goodnight",
+			"intent": "exit",
+			"entities": []
+		},
+		{
+			"text": "See ya",
+			"intent": "exit",
+			"entities": []
+		},
+		{
+			"text": "need assistance",
+			"intent": "assistance",
+			"entities": []
+		},
+		{
+			"text": "guard me",
+			"intent": "assistance",
+			"entities": []
+		},
+		{
+			"text": "guard me",
+			"intent": "assistance",
+			"entities": []
+		},
+		{
+			"text": "need your assistance",
+			"intent": "assistance",
+			"entities": []
+		},
+		{
+			"text": "want support",
+			"intent": "assistance",
+			"entities": []
+		},
+		{
+			"text": "how can you help me",
+			"intent": "assistance",
+			"entities": []
+		},
+		{
+			"text": "help",
+			"intent": "assistance",
+			"entities": []
+		},
+		{
+			"text": "bot support",
+			"intent": "assistance",
+			"entities": []
+		},
+		{
+			"text": "how can i use you?",
+			"intent": "assistance",
+			"entities": []
+		},
+		{
+			"text": "assist me",
+			"intent": "assistance",
+			"entities": []
+		},
+		{
+			"text": "want your guidance",
+			"intent": "assistance",
+			"entities": []
+		},
+		{
+			"text": "how can u prove to be helpful",
+			"intent": "assistance",
+			"entities": []
+		},
+		{
+			"text": "how can you prove to be of any help to me",
+			"intent": "assistance",
+			"entities": []
+		},
+		{
+			"text": "be my helper",
+			"intent": "assistance",
+			"entities": []
+		},
+		{
+			"text": "see u",
+			"intent": "exit",
+			"entities": []
+		},
+		{
+			"text": "ciao",
+			"intent": "exit",
+			"entities": []
+		},
+		{
+			"text": "I'll see you",
+			"intent": "exit",
+			"entities": []
+		},
+		{
+			"text": "I go bye",
+			"intent": "exit",
+			"entities": []
+		},
+		{
+			"text": "cheers",
+			"intent": "exit",
+			"entities": []
+		},
+		{
+			"text": "thanks that's all I needed to see",
+			"intent": "exit",
+			"entities": []
+		},
+		{
+			"text": "talk to you later",
+			"intent": "exit",
+			"entities": []
+		},
+		{
+			"text": "thank you, bye",
+			"intent": "exit",
+			"entities": []
+		},
+		{
+			"text": "Morning !",
+			"intent": "greet",
+			"entities": []
+		},
+		{
+			"text": "hey body",
+			"intent": "greet",
+			"entities": []
+		},
+		{
+			"text": "hi bot",
+			"intent": "greet",
+			"entities": []
+		},
+		{
+			"text": "Hi dude",
+			"intent": "greet",
+			"entities": []
+		},
+		{
+			"text": "Hello my friend",
+			"intent": "greet",
+			"entities": []
+		},
+		{
+			"text": "exit chatting",
+			"intent": "exit",
+			"entities": []
+		},
+		{
+			"text": "Hello my friend",
+			"intent": "greet",
+			"entities": []
+		},
+		{
+			"text": "Howdie",
+			"intent": "greet",
+			"entities": []
+		},
+		{
+			"text": "bonjour",
+			"intent": "greet",
+			"entities": []
+		},
+		{
+			"text": "begin",
+			"intent": "greet",
+			"entities": []
+		},
+		{
+			"text": "Hey Francois",
+			"intent": "greet",
+			"entities": []
+		},
+		{
+			"text": "What is a 3D secure password?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I delete my saved Credit Card",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I delete my saved debit Card",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How to delete saved card",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you accept Paypal?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Is there any EMI option available?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Is the EMI option available only on the credit card?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you accept Credit Cards?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Different modes of payment method available?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "What are the payment methods available",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "What payment methods do you allow",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you deliver on a Sunday?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "What is the meaning of COD?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I pay a COD order by a my Debit or Credit Card",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "What payment gateway do you use?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I get my order ASAP",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you ship internationally?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you ship to Australia?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you ship in USA?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you deliver in Bangalore?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "wanna buy a bedsheet",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 12,
+					"end": 20,
+					"value": "bedsheet",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "want a simple designer bedsheet",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 23,
+					"end": 31,
+					"value": "bedsheet",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "get me 3D sheets please",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 7,
+					"end": 16,
+					"value": "bedsheet",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "do you have any sheet with a set of pillow covers",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 36,
+					"end": 49,
+					"value": "pillow covers",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "a bed sheet with a set of pillow covers",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 26,
+					"end": 39,
+					"value": "pillow covers",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "need pillow covers",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 5,
+					"end": 18,
+					"value": "pillow covers",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "looking for a set of pillow covers",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 21,
+					"end": 34,
+					"value": "pillow covers",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "want iphone 8",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 5,
+					"end": 13,
+					"value": "iphone",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "wanna buy iphone 8",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 10,
+					"end": 18,
+					"value": "iphone",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "get me iphone 8 please",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 7,
+					"end": 15,
+					"value": "iphone",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "get me grey coloured iphone 8",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 21,
+					"end": 29,
+					"value": "iphone",
+					"entity": "product_type"
+				},
+				{
+					"start": 7,
+					"end": 11,
+					"value": "grey",
+					"entity": "color_code"
+				}
+			]
+		},
+		{
+			"text": "I want to purchase a grey coloured iphone",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 35,
+					"end": 41,
+					"value": "iphone",
+					"entity": "product_type"
+				},
+				{
+					"start": 21,
+					"end": 25,
+					"value": "grey",
+					"entity": "color_code"
+				}
+			]
+		},
+		{
+			"text": "64gb iphone",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 5,
+					"end": 11,
+					"value": "iphone",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "need an iphone",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 8,
+					"end": 14,
+					"value": "iphone",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "an Iphone please",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 3,
+					"end": 9,
+					"value": "iphone",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "a pair of black Crocs",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 16,
+					"end": 21,
+					"value": "Crocs",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "comfy Crocs",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 6,
+					"end": 11,
+					"value": "Crocs",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "looking for comfortable kids footwear",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 24,
+					"end": 37,
+					"value": "kids footwear",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "kids footwear please",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 0,
+					"end": 13,
+					"value": "kids footwear",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "frocks for kids",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 0,
+					"end": 6,
+					"value": "frocks",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "want to buy a Mobile cover",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 14,
+					"end": 26,
+					"value": "Mobile cover",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "Mobile cover for my iphone 8 phone",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 0,
+					"end": 12,
+					"value": "Mobile cover",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "Mobile cover for my smart phone",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 0,
+					"end": 12,
+					"value": "Mobile cover",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "need an iphone cover",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 8,
+					"end": 20,
+					"value": "Mobile cover",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "need iphone cover for 6S",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 5,
+					"end": 17,
+					"value": "Mobile cover",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "get me golden iphone cover for my 64GB apple 6S",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 14,
+					"end": 26,
+					"value": "Mobile cover",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "need one iphone cover",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 9,
+					"end": 21,
+					"value": "Mobile cover",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "do u have a sofa too?",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 12,
+					"end": 16,
+					"value": "sofa",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "a grey coloured sofa for my house",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 16,
+					"end": 20,
+					"value": "sofa",
+					"entity": "product_type"
+				},
+				{
+					"start": 2,
+					"end": 6,
+					"value": "grey",
+					"entity": "color_code"
+				}
+			]
+		},
+		{
+			"text": "a sofa set having 5 items",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 2,
+					"end": 10,
+					"value": "sofa",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "a 5 seater sofa set",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 11,
+					"end": 19,
+					"value": "sofa",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "a sofa set with 2 chairs",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 2,
+					"end": 10,
+					"value": "sofa",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "looking for fancy lamps",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 18,
+					"end": 23,
+					"value": "lamps",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "diffrent designs for lights",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 21,
+					"end": 27,
+					"value": "lamps",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "colourful lights",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 10,
+					"end": 16,
+					"value": "lamps",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "do you have showers too?",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 12,
+					"end": 19,
+					"value": "showers",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "need bath room showers",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 15,
+					"end": 22,
+					"value": "showers",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "want to see showers you have before buying them",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 12,
+					"end": 19,
+					"value": "showers",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "u have sanitaryware also",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 7,
+					"end": 19,
+					"value": "sanitaryware",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "do u deal in sanitaryware too?",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 13,
+					"end": 25,
+					"value": "sanitaryware",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "want to buy sanitaryware products",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 12,
+					"end": 24,
+					"value": "sanitaryware",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "sanitaryware for my bathroom",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 0,
+					"end": 12,
+					"value": "sanitaryware",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "I want a watch",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 9,
+					"end": 14,
+					"value": "watch",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "one Analog watch for me",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 4,
+					"end": 16,
+					"value": "Analog watch",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "new Analog watch for me",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 4,
+					"end": 16,
+					"value": "Analog watch",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "do u also have mens watch",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 15,
+					"end": 25,
+					"value": "mens watch",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "mens watch with a coloured strap",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 0,
+					"end": 10,
+					"value": "mens watch",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "get a mens watch",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 6,
+					"end": 16,
+					"value": "mens watch",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "i want a blue top",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 14,
+					"end": 17,
+					"value": "top",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "get me a blue strip top",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 20,
+					"end": 23,
+					"value": "top",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "a Vacuum Cleaner with 1400W suction",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 2,
+					"end": 16,
+					"value": "Vacuum Cleaner",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "need one Vacuum Cleaner",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 9,
+					"end": 23,
+					"value": "Vacuum Cleaner",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "get a Vacuum Cleaner for me",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 6,
+					"end": 20,
+					"value": "Vacuum Cleaner",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "do u have a Vacuum Cleaner from skyline company",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 12,
+					"end": 26,
+					"value": "Vacuum Cleaner",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "a 1000 W to 2000 W powered Vacuum Cleaner",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 27,
+					"end": 41,
+					"value": "Vacuum Cleaner",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "want one room cleaner",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 14,
+					"end": 21,
+					"value": "Vacuum Cleaner",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "a cleaner from sky line company",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 2,
+					"end": 9,
+					"value": "Vacuum Cleaner",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "a cleaner for my home",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 2,
+					"end": 9,
+					"value": "Vacuum Cleaner",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "What is a 3D secure password?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I delete my saved Credit Card",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I delete my saved debit Card",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How to delete saved card",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you accept Paypal?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Is there any EMI option available?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Is the EMI option available only on the credit card?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you accept Credit Cards?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Different modes of payment method available?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Different modes of payment method available?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "What are the payment methods available",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "What payment methods do you allow",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you deliver on Sunday?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "What is the meaning of COD?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I pay a COD order by a my Debit or Credit Card",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "What payment gateway do you use?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I get my order ASAP",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you ship internationally?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you ship to Australia?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you deliver in Bangalore?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How will you ship my orders",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "What are the shipping charges?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Are the shipping charges according to weight?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you ship on weekends too?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Is COD availble for an Iphone 6s",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I pay with cash for a samsung washing machine",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I get Cash on delivery option on all products?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can i delay my product delivery",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can i prioritise my product delivery",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I missed the delivery of my order today. What steps should I take?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can i change my shipping address?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I change my postal address",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I modify my order?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I track my order?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Is it possible to track online orders",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How to track order shipment",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I track the payment?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Where is my order?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I know my order status?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "how can I cancel my order",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Why have you cancelled my order",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Is there any gift voucher option?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "my gift card has expired. How can I extent the validity?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I return the Iphone I bought last week?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I want to return the product",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "From where can I check the status of the return",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Want to check the return status",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I cannot return the item purchased",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How much time does it take to fulfil the replacement request?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do I also have to return the freebie when I return a product?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do I also have to return the free gift with the order item?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "my order is not confirmed but amount has been debited from my account",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "when will i receive the refund amount",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I want to exchange my product",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "want to know the status of my exchange request",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "unable to exchange the order items",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "want to exchange my top with the Large size",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Where are your stores located?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Where are your stores located in India?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you have a separate online store for international orders?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I contact you?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How to update my contact details?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "unable to sign in my account",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How to claim warranty for the product purchased from you?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I lost my warranty card. What should I do?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can we customise clothes according to our designs",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I link multiple phone numbers and email addresses with a single account?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I share my reviews about a product.",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How will I know that my order has been confirmed?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How do I reset my password?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Is there any registration fee for creating an account?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Will you notify me when the product is back in inventory?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "tell me about 3D secure password",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I pay via my pay pal account?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I consider paying in EMI",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you offer Equated monthly instalments option?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I only avail Equated monthly instalments option via my CC?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I pay via my HDFC credit card?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I want to delete the save payment details from my account",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you support Paypal as a payment method?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How will i know that my product is back in stock?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Will you email me when a product is added in the inventory?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I want to change my password",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Is my order confirmed?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I post my reviews?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I give product reviews?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I link 2 emails within a same account?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I lost my product warranty card",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "What is the process for claiming the product warranty?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I cannot login into my account",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I changed my phone number. How can I update?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Where can I email my query?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I reach your customer service?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "hiiii",
+			"intent": "greet",
+			"entities": []
+		},
+		{
+			"text": "Winter wear clothes for kids",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 0,
+					"end": 11,
+					"value": "Winter Wear",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "I need winter wear apparels for my kid",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 7,
+					"end": 18,
+					"value": "Winter Wear",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "what do you have in boys wear section?",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 20,
+					"end": 29,
+					"value": "Boys wear",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "want to buy boys wear for winter season",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 12,
+					"end": 21,
+					"value": "Boys wear",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "anything unique in Boys wear",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 19,
+					"end": 28,
+					"value": "Boys wear",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "I want to buy Towel Rings",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 14,
+					"end": 25,
+					"value": "Towel Rings",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "a set of Towel Rings please",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 9,
+					"end": 20,
+					"value": "Towel Rings",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "do you have towel holder set?",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 18,
+					"end": 24,
+					"value": "holder",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "can I get a set of towel holder",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 19,
+					"end": 31,
+					"value": "towel holder",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "show bathroom fixtures",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 5,
+					"end": 22,
+					"value": "bathroom fixtures",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "waterproof and foldable wardrobe for outside",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 15,
+					"end": 32,
+					"value": "foldable wardrobe",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "trendy foldable wardrobe",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 7,
+					"end": 24,
+					"value": "foldable wardrobe",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "what all do you have in the furniture category?",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 28,
+					"end": 37,
+					"value": "furniture",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "do u have a portable almirahs",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 21,
+					"end": 29,
+					"value": "almirah",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "want an almirah",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 8,
+					"end": 15,
+					"value": "almirah",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "want a king size mattress",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 17,
+					"end": 25,
+					"value": "mattress",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "a premium mattress",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 10,
+					"end": 18,
+					"value": "mattress",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "bitch",
+			"intent": "abusive",
+			"entities": []
+		},
+		{
+			"text": "get lost",
+			"intent": "abusive",
+			"entities": []
+		},
+		{
+			"text": "you slut",
+			"intent": "abusive",
+			"entities": []
+		},
+		{
+			"text": "fuck off",
+			"intent": "abusive",
+			"entities": []
+		},
+		{
+			"text": "you are stupid",
+			"intent": "abusive",
+			"entities": []
+		},
+		{
+			"text": "any offers?",
+			"intent": "ongoing_offers",
+			"entities": []
+		},
+		{
+			"text": "any sale?",
+			"intent": "ongoing_offers",
+			"entities": []
+		},
+		{
+			"text": "any discounts?",
+			"intent": "ongoing_offers",
+			"entities": []
+		},
+		{
+			"text": "what can you do for me?",
+			"intent": "about",
+			"entities": []
+		},
+		{
+			"text": "what do you do?",
+			"intent": "about",
+			"entities": []
+		},
+		{
+			"text": "what is your job?",
+			"intent": "about",
+			"entities": []
+		},
+		{
+			"text": "what tasks can you perform?",
+			"intent": "about",
+			"entities": []
+		},
+		{
+			"text": "you are a bitch",
+			"intent": "abusive",
+			"entities": []
+		},
+		{
+			"text": "son of a bitch",
+			"intent": "abusive",
+			"entities": []
+		},
+		{
+			"text": "u r a slut bot",
+			"intent": "abusive",
+			"entities": []
+		},
+		{
+			"text": "slut bot",
+			"intent": "abusive",
+			"entities": []
+		},
+		{
+			"text": "get lost bot",
+			"intent": "abusive",
+			"entities": []
+		},
+		{
+			"text": "go fuck off",
+			"intent": "abusive",
+			"entities": []
+		},
+		{
+			"text": "fuck you",
+			"intent": "abusive",
+			"entities": []
+		},
+		{
+			"text": "do you have any offers?",
+			"intent": "ongoing_offers",
+			"entities": []
+		},
+		{
+			"text": "is there any offer going on?",
+			"intent": "ongoing_offers",
+			"entities": []
+		},
+		{
+			"text": "looking for discounts",
+			"intent": "ongoing_offers",
+			"entities": []
+		},
+		{
+			"text": "is there any ongoing sale?",
+			"intent": "ongoing_offers",
+			"entities": []
+		},
+		{
+			"text": "extra discounts",
+			"intent": "ongoing_offers",
+			"entities": []
+		},
+		{
+			"text": "promotional offers",
+			"intent": "ongoing_offers",
+			"entities": []
+		},
+		{
+			"text": "any ongoing offer",
+			"intent": "ongoing_offers",
+			"entities": []
+		},
+		{
+			"text": "promotions",
+			"intent": "ongoing_offers",
+			"entities": []
+		},
+		{
+			"text": "you are a moron",
+			"intent": "abusive",
+			"entities": []
+		},
+		{
+			"text": "moron",
+			"intent": "abusive",
+			"entities": []
+		},
+		{
+			"text": "u brainless",
+			"intent": "abusive",
+			"entities": []
+		},
+		{
+			"text": "you are a brainless bot",
+			"intent": "abusive",
+			"entities": []
+		},
+		{
+			"text": "u idiotic bot",
+			"intent": "abusive",
+			"entities": []
+		},
+		{
+			"text": "idiot bot",
+			"intent": "abusive",
+			"entities": []
+		},
+		{
+			"text": "will I be charged for the sign up process?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I forgot my password",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I want an apple smartphone",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 10,
+					"end": 15,
+					"value": "apple",
+					"entity": "brand_name"
+				},
+				{
+					"start": 16,
+					"end": 26,
+					"value": "smartphone",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "get me a 64GB apple smartphone",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 14,
+					"end": 19,
+					"value": "apple",
+					"entity": "brand_name"
+				},
+				{
+					"start": 20,
+					"end": 30,
+					"value": "smartphone",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "want running shoes by Fhonex",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 13,
+					"end": 18,
+					"value": "shoes",
+					"entity": "product_type"
+				},
+				{
+					"start": 22,
+					"end": 28,
+					"value": "Fhonex",
+					"entity": "brand_name"
+				}
+			]
+		},
+		{
+			"text": "Fhonex sport shoes for men",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 0,
+					"end": 6,
+					"value": "Fhonex",
+					"entity": "brand_name"
+				},
+				{
+					"start": 13,
+					"end": 18,
+					"value": "shoes",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "a Skyline vacuum cleaner",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 2,
+					"end": 9,
+					"value": "Skyline",
+					"entity": "brand_name"
+				},
+				{
+					"start": 10,
+					"end": 24,
+					"value": "Vacuum Cleaner",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "a cleaner by sky line company",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 2,
+					"end": 9,
+					"value": "Vacuum Cleaner",
+					"entity": "product_type"
+				},
+				{
+					"start": 13,
+					"end": 21,
+					"value": "Skyline",
+					"entity": "brand_name"
+				}
+			]
+		},
+		{
+			"text": "almirah by MyShop24",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 0,
+					"end": 7,
+					"value": "almirah",
+					"entity": "product_type"
+				},
+				{
+					"start": 11,
+					"end": 19,
+					"value": "MyShop24",
+					"entity": "brand_name"
+				}
+			]
+		},
+		{
+			"text": "foldable wardrobe by my shop 24 brand",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 21,
+					"end": 31,
+					"value": "MyShop24",
+					"entity": "brand_name"
+				},
+				{
+					"start": 9,
+					"end": 17,
+					"value": "wardrobe",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "foldable almirah by MyShop24",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 9,
+					"end": 16,
+					"value": "almirah",
+					"entity": "product_type"
+				},
+				{
+					"start": 20,
+					"end": 28,
+					"value": "MyShop24",
+					"entity": "brand_name"
+				}
+			]
+		},
+		{
+			"text": "an asus laptop",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 3,
+					"end": 7,
+					"value": "Asus",
+					"entity": "brand_name"
+				},
+				{
+					"start": 8,
+					"end": 14,
+					"value": "laptop",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "PC by Asus",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 0,
+					"end": 2,
+					"value": "laptop",
+					"entity": "product_type"
+				},
+				{
+					"start": 6,
+					"end": 10,
+					"value": "Asus",
+					"entity": "brand_name"
+				}
+			]
+		},
+		{
+			"text": "a VivoBook by asus",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 2,
+					"end": 10,
+					"value": "VivoBook",
+					"entity": "product_type"
+				},
+				{
+					"start": 14,
+					"end": 18,
+					"value": "Asus",
+					"entity": "brand_name"
+				}
+			]
+		},
+		{
+			"text": "need an Asus Vivo Book",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 8,
+					"end": 12,
+					"value": "Asus",
+					"entity": "brand_name"
+				},
+				{
+					"start": 13,
+					"end": 22,
+					"value": "VivoBook",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "showers by Kurvz",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 11,
+					"end": 16,
+					"value": "Kurvz",
+					"entity": "brand_name"
+				},
+				{
+					"start": 0,
+					"end": 7,
+					"value": "showers",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "sanitaryware product from Kurvz",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 0,
+					"end": 12,
+					"value": "sanitaryware",
+					"entity": "product_type"
+				},
+				{
+					"start": 26,
+					"end": 31,
+					"value": "Kurvz",
+					"entity": "brand_name"
+				}
+			]
+		},
+		{
+			"text": "Kurvz spouts",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 0,
+					"end": 5,
+					"value": "Kurvz",
+					"entity": "brand_name"
+				},
+				{
+					"start": 6,
+					"end": 12,
+					"value": "spouts",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "products that suit my pocket",
+			"intent": "random_queries",
+			"entities": []
+		},
+		{
+			"text": "I want a cheap and beautiful gift for my friend",
+			"intent": "random_queries",
+			"entities": []
+		},
+		{
+			"text": "want to present my mom with some amazing home stuff",
+			"intent": "random_queries",
+			"entities": []
+		},
+		{
+			"text": "I am here to purchase a nice birthday gift for Dad",
+			"intent": "random_queries",
+			"entities": []
+		},
+		{
+			"text": "something cool yet reasonable to gift to my buddies",
+			"intent": "random_queries",
+			"entities": []
+		},
+		{
+			"text": "want to make a reasonable purchase",
+			"intent": "random_queries",
+			"entities": []
+		},
+		{
+			"text": "get some cool stuff from your stock",
+			"intent": "random_queries",
+			"entities": []
+		},
+		{
+			"text": "How can delete a payment method",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "What is a 3D secure password?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "tell me about 3D secure password",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I delete my saved Credit Card",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I delete my saved debit Card",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How to delete saved card",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I want to delete the save payment details from my account",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you accept Paypal?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I pay via my pay pal account?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you support Paypal as a payment method?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Is there any EMI option available?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I consider paying in EMIs",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you offer Equated monthly instalments option?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Is the EMI payment option available on the credit card and debit card both?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I only avail Equated monthly instalments option via my CC?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you accept Credit Cards?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I pay via my HDFC credit card?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Different modes of payment method available?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "What are the payment methods available",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "What payment / paying methods do you allow",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "What is the meaning of COD?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I pay a COD order by a my Debit or Credit Card",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "What merchant payment gateway do you use?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I get my order ASAP",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you ship internationally?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you delivery available in Australia and all around the world or globe?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you deliver in Bangalore or across India?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How safely will you ship my orders",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "What are the shipping / ship / delivery charge or charges?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Are the shipping charges according to weight?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Is COD available for an Iphone 6s",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I pay with cash for a samsung washing machine",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I get Cash on delivery option on all products?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can i delay or postpone my product delivery",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can i prioritise my product delivery",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I missed the delivery of my order today. What steps should I take?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can i change my shipping address details?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I change my postal address details",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I modify my order?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I track location of my order shipment online?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Is it possible to track online orders",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How to track order shipment",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I track / check online the payment status?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Where is my order?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I know my order status?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "how can I cancel my order",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Why have you cancelled my order",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Is there any gift voucher or gift card option?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "my gift card has expired. How can I extent the validity?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I return the phone I bought last week?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I want to return the product purchased",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "From where can I check the status of the return",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Want to check the return status",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I cannot return the item purchased",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How much time does it take to fulfil the replacement request?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do I also have to return the freebie when I return a product?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do I also have to return the free gift with the order item?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "my order is not confirmed but amount has been debited from my account",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "when will i receive the refund amount",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I want to exchange my product",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "want to know the status of my exchange request",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "unable to exchange the order items",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "want to exchange my top with the Large size",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Where are your stores located?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Where are your stores / shops located in India?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Do you have a separate online store for international orders?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I contact you to report a product complaint and issues faced?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Where can I email my query / complaint?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I reach your customer service or customer support?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How to update my contact details?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I changed my mobile phone number. How can I add or update?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "unable to sign in my account",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I cannot login into my account",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How to claim warranty for the product purchased from you?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "What is the process for claiming the product warranty?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I lost my warranty card. What should I do?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I lost my product warranty card",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can we customise clothes according to our designs and taste",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I link multiple phone numbers and email addresses with a single account?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I link 2 emails / email ID within a same account?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I share my reviews about a product.",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I post or send my reviews?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I give product reviews and rating?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How will I know that my order has been confirmed?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Is my order confirmed?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How do I reset my password?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I want to update / change my password",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I forgot my password",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Is there any registration fee for creating or opening an account?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "will I be charged for the sign up or register process?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Will you notify me when the product is back in inventory?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How will i know that my product is back in stock?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Will you email me when a product is added in the inventory?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "want good quality products",
+			"intent": "random_queries",
+			"entities": []
+		},
+		{
+			"text": "like to eat meals?",
+			"intent": "smalltalk_food",
+			"entities": []
+		},
+		{
+			"text": "want to eat?",
+			"intent": "smalltalk_food",
+			"entities": []
+		},
+		{
+			"text": "breakfast?",
+			"intent": "smalltalk_food",
+			"entities": []
+		},
+		{
+			"text": "break fast?",
+			"intent": "smalltalk_food",
+			"entities": []
+		},
+		{
+			"text": "wanna have lunch?",
+			"intent": "smalltalk_food",
+			"entities": []
+		},
+		{
+			"text": "do you eat?",
+			"intent": "smalltalk_food",
+			"entities": []
+		},
+		{
+			"text": "want to eat?",
+			"intent": "smalltalk_food",
+			"entities": []
+		},
+		{
+			"text": "Want to have dinner with me?",
+			"intent": "smalltalk_food",
+			"entities": []
+		},
+		{
+			"text": "Do u like eating food?",
+			"intent": "smalltalk_food",
+			"entities": []
+		},
+		{
+			"text": "food?",
+			"intent": "smalltalk_food",
+			"entities": []
+		},
+		{
+			"text": "Are you a foodie?",
+			"intent": "smalltalk_food",
+			"entities": []
+		},
+		{
+			"text": "I want to return my Asus laptop",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I want to return the product bought last month",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Can I get COD option on any product I bought?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I like u",
+			"intent": "smalltalk_praise",
+			"entities": []
+		},
+		{
+			"text": "I like you",
+			"intent": "smalltalk_praise",
+			"entities": []
+		},
+		{
+			"text": "I love u",
+			"intent": "smalltalk_praise",
+			"entities": []
+		},
+		{
+			"text": "I love you",
+			"intent": "smalltalk_praise",
+			"entities": []
+		},
+		{
+			"text": "u are witty",
+			"intent": "smalltalk_praise",
+			"entities": []
+		},
+		{
+			"text": "i like your witty reply",
+			"intent": "smalltalk_praise",
+			"entities": []
+		},
+		{
+			"text": "u are awesome",
+			"intent": "smalltalk_praise",
+			"entities": []
+		},
+		{
+			"text": "you r Awesome",
+			"intent": "smalltalk_praise",
+			"entities": []
+		},
+		{
+			"text": "you are a rock start",
+			"intent": "smalltalk_praise",
+			"entities": []
+		},
+		{
+			"text": "u r a rockstar",
+			"intent": "smalltalk_praise",
+			"entities": []
+		},
+		{
+			"text": "I want a blue strapped Analog watch",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 9,
+					"end": 13,
+					"value": "blue",
+					"entity": "color_code"
+				},
+				{
+					"start": 23,
+					"end": 35,
+					"value": "Analog watch",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "a blue watch for me",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 2,
+					"end": 6,
+					"value": "blue",
+					"entity": "color_code"
+				},
+				{
+					"start": 7,
+					"end": 12,
+					"value": "watch",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "get me a blue strap wrist watch",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 9,
+					"end": 13,
+					"value": "blue",
+					"entity": "color_code"
+				},
+				{
+					"start": 26,
+					"end": 31,
+					"value": "watch",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "wanna explore some cheap birthday options",
+			"intent": "random_queries",
+			"entities": []
+		},
+		{
+			"text": "I want to check your awesome stock",
+			"intent": "random_queries",
+			"entities": []
+		},
+		{
+			"text": "wanna see your awesome collection",
+			"intent": "random_queries",
+			"entities": []
+		},
+		{
+			"text": "a reasonable valentine gift",
+			"intent": "random_queries",
+			"entities": []
+		},
+		{
+			"text": "what options do you have for a diwali gift?",
+			"intent": "random_queries",
+			"entities": []
+		},
+		{
+			"text": "want a grey colored foldable almirah by MyShop24",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 7,
+					"end": 11,
+					"value": "grey",
+					"entity": "color_code"
+				},
+				{
+					"start": 29,
+					"end": 36,
+					"value": "almirah",
+					"entity": "product_type"
+				},
+				{
+					"start": 40,
+					"end": 48,
+					"value": "MyShop24",
+					"entity": "brand_name"
+				}
+			]
+		},
+		{
+			"text": "I want to purchase a grey coloured apple iphone",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 21,
+					"end": 25,
+					"value": "grey",
+					"entity": "color_code"
+				},
+				{
+					"start": 35,
+					"end": 40,
+					"value": "apple",
+					"entity": "brand_name"
+				},
+				{
+					"start": 41,
+					"end": 47,
+					"value": "iphone",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "want to buy a gift",
+			"intent": "random_queries",
+			"entities": []
+		},
+		{
+			"text": "u r a stupid",
+			"intent": "abusive",
+			"entities": []
+		},
+		{
+			"text": "a pink frock",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 2,
+					"end": 6,
+					"value": "pink",
+					"entity": "color_code"
+				},
+				{
+					"start": 7,
+					"end": 12,
+					"value": "frocks",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "a pink coloured dress",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 2,
+					"end": 6,
+					"value": "pink",
+					"entity": "color_code"
+				},
+				{
+					"start": 16,
+					"end": 21,
+					"value": "frocks",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "want kids apparel",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 5,
+					"end": 17,
+					"value": "kids apparel",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "get kids apparel for me",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 4,
+					"end": 16,
+					"value": "kids apparel",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "need lamps",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 5,
+					"end": 10,
+					"value": "lamps",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "I want to buy jeans",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 14,
+					"end": 19,
+					"value": "jeans",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "want a pair of jeans",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 15,
+					"end": 20,
+					"value": "jeans",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "want a pair of blue jeans",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 15,
+					"end": 19,
+					"value": "blue",
+					"entity": "color_code"
+				},
+				{
+					"start": 20,
+					"end": 25,
+					"value": "jeans",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "Do you take tea?",
+			"intent": "smalltalk_caffeine",
+			"entities": []
+		},
+		{
+			"text": "do you drink tea?",
+			"intent": "smalltalk_caffeine",
+			"entities": []
+		},
+		{
+			"text": "do you want to try coffee?",
+			"intent": "smalltalk_caffeine",
+			"entities": []
+		},
+		{
+			"text": "coffee or tea?",
+			"intent": "smalltalk_caffeine",
+			"entities": []
+		},
+		{
+			"text": "Do you like having caffeine?",
+			"intent": "smalltalk_caffeine",
+			"entities": []
+		},
+		{
+			"text": "Do you consume caffeine?",
+			"intent": "smalltalk_caffeine",
+			"entities": []
+		},
+		{
+			"text": "who is your founder?",
+			"intent": "smalltalk_founder",
+			"entities": []
+		},
+		{
+			"text": "name your founder",
+			"intent": "smalltalk_founder",
+			"entities": []
+		},
+		{
+			"text": "who invented you?",
+			"intent": "smalltalk_founder",
+			"entities": []
+		},
+		{
+			"text": "name the company that invented you?",
+			"intent": "smalltalk_founder",
+			"entities": []
+		},
+		{
+			"text": "who is your developer?",
+			"intent": "smalltalk_founder",
+			"entities": []
+		},
+		{
+			"text": "developers behind you?",
+			"intent": "smalltalk_founder",
+			"entities": []
+		},
+		{
+			"text": "who all are your creators?",
+			"intent": "smalltalk_founder",
+			"entities": []
+		},
+		{
+			"text": "I want to get my order as soon as possible",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Show me my last orders.",
+			"intent": "show_order",
+			"entities": []
+		},
+		{
+			"text": "Is cash on delivery option available on all products?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I have an issue with my referral / reference code",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "How can I return the product purchased?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I want to customise according to my prints",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "show order",
+			"intent": "show_order",
+			"entities": []
+		},
+		{
+			"text": "In how many months or time can I complete my EMI?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I am unable to complete the my replacement order",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I want to unsubscribe from promotional emails and SMS",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I want to unsubscribe from promotional emails and SMS",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "I want to return the product purchased last month",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Show me all the products from your stock",
+			"intent": "random_queries",
+			"entities": []
+		},
+		{
+			"text": "what all products you have in stock",
+			"intent": "random_queries",
+			"entities": []
+		},
+		{
+			"text": "let us go out for lunch",
+			"intent": "smalltalk_food",
+			"entities": []
+		},
+		{
+			"text": "want to go on a dinner date?",
+			"intent": "smalltalk_food",
+			"entities": []
+		},
+		{
+			"text": "what cuisine do you like?",
+			"intent": "smalltalk_food",
+			"entities": []
+		},
+		{
+			"text": "type of cuisine do you like to eat?",
+			"intent": "smalltalk_food",
+			"entities": []
+		},
+		{
+			"text": "language you can communicate in?",
+			"intent": "smalltalk_language",
+			"entities": []
+		},
+		{
+			"text": "languages you know?",
+			"intent": "smalltalk_language",
+			"entities": []
+		},
+		{
+			"text": "Language you have proficiency in?",
+			"intent": "smalltalk_language",
+			"entities": []
+		},
+		{
+			"text": "Are you a robot?",
+			"intent": "about",
+			"entities": []
+		},
+		{
+			"text": "are you a chatbot or a robot?",
+			"intent": "about",
+			"entities": []
+		},
+		{
+			"text": "What is your name?",
+			"intent": "about",
+			"entities": []
+		},
+		{
+			"text": "may i know your name?",
+			"intent": "about",
+			"entities": []
+		},
+		{
+			"text": "what can I call you?",
+			"intent": "about",
+			"entities": []
+		},
+		{
+			"text": "type of meals do you eat?",
+			"intent": "smalltalk_food",
+			"entities": []
+		},
+		{
+			"text": "what meal you intake?",
+			"intent": "smalltalk_food",
+			"entities": []
+		},
+		{
+			"text": "products that will suit my budget",
+			"intent": "random_queries",
+			"entities": []
+		},
+		{
+			"text": "When is your birthday?",
+			"intent": "smalltalk_birthday",
+			"entities": []
+		},
+		{
+			"text": "When can I wish you happy birthday?",
+			"intent": "smalltalk_birthday",
+			"entities": []
+		},
+		{
+			"text": "what is your birth date?",
+			"intent": "smalltalk_birthday",
+			"entities": []
+		},
+		{
+			"text": "where were you born?",
+			"intent": "smalltalk_birthday",
+			"entities": []
+		},
+		{
+			"text": "I want to know your birth year",
+			"intent": "smalltalk_birthday",
+			"entities": []
+		},
+		{
+			"text": "Do you deliver package on weekends or Sunday?",
+			"intent": "faq",
+			"entities": []
+		},
+		{
+			"text": "Show my orders",
+			"intent": "show_wishlist",
+			"entities": []
+		},
+		{
+			"text": "show order",
+			"intent": "show_wishlist",
+			"entities": []
+		},
+		{
+			"text": "can you give me a laptop",
+			"intent": "search_product",
+			"entities": [
+				{
+					"start": 18,
+					"end": 24,
+					"value": "laptop",
+					"entity": "product_type"
+				}
+			]
+		},
+		{
+			"text": "Show me my last orders.",
+			"intent": "show_wishlist",
+			"entities": []
+		},
+		{
+			"text": "Show my orders",
+			"intent": "show_order",
+			"entities": []
+		}
+	],
+	"entity_data": [
+		{
+			"name": "brand_name",
+			"data": [
+				{
+					"value": "apple",
+					"synonyms": [
+						"apple"
+					]
+				},
+				{
+					"value": "Fhonex",
+					"synonyms": [
+						"Fhonex",
+						"fhonex"
+					]
+				},
+				{
+					"value": "Skyline",
+					"synonyms": [
+						"Skyline",
+						"sky line"
+					]
+				},
+				{
+					"value": "MyShop24",
+					"synonyms": [
+						"MyShop24",
+						"my shop 24"
+					]
+				},
+				{
+					"value": "Asus",
+					"synonyms": [
+						"asus",
+						"Asus"
+					]
+				},
+				{
+					"value": "Kurvz",
+					"synonyms": [
+						"Kurvz",
+                        "Kurvz+"
+					]
+				}
+			]
+		},
+		{
+			"name": "color_code",
+			"data": [
+				{
+					"value": "grey",
+					"synonyms": [
+						"grey",
+						"silvery",
+						"silver",
+						"space grey",
+						"gray"
+					]
+				},
+				{
+					"value": "blue",
+					"synonyms": [
+						"blue",
+						"indigo",
+						"cyan",
+						"aquamarine",
+						"aqua marine",
+						"turquoise"
+					]
+				},
+				{
+					"value": "pink",
+					"synonyms": [
+						"pink",
+						"rosy",
+						"rose coloured"
+					]
+				}
+			]
+		},
+		{
+			"name": "product_type",
+			"data": [
+				{
+					"value": "bedsheet",
+					"synonyms": [
+						"3D sheets",
+						"bedsheet",
+                        "Bedsheet",
+						"bed sheet"
+					]
+				},
+				{
+					"value": "pillow covers",
+					"synonyms": [
+						"pillow covers"
+					]
+				},
+				{
+					"value": "iphone",
+					"synonyms": [
+						"iphone 8",
+						"iphone",
+						"Iphone",
+						"phone"
+					]
+				},
+				{
+					"value": "Crocs",
+					"synonyms": [
+						"Crocs"
+					]
+				},
+				{
+					"value": "kids footwear",
+					"synonyms": [
+						"kids footwear",
+						"footwear"
+					]
+				},
+				{
+					"value": "kids apparel",
+					"synonyms": [
+						"kids apparel",
+						"kids apparels",
+						"apparel"
+					]
+				},
+				{
+					"value": "frocks",
+					"synonyms": [
+						"frocks",
+						"dress",
+						"frock"
+					]
+				},
+				{
+					"value": "Mobile cover",
+					"synonyms": [
+						"Mobile cover",
+						"iphone cover"
+					]
+				},
+				{
+					"value": "sofa",
+					"synonyms": [
+						"sofa",
+						"sofa set",
+						"couch"
+					]
+				},
+				{
+					"value": "lamps",
+					"synonyms": [
+						"lamps",
+						"lights"
+					]
+				},
+				{
+					"value": "showers",
+					"synonyms": [
+						"showers"
+					]
+				},
+				{
+					"value": "sanitaryware",
+					"synonyms": [
+						"sanitaryware"
+					]
+				},
+				{
+					"value": "watch",
+					"synonyms": [
+						"watch"
+					]
+				},
+				{
+					"value": "Analog watch",
+					"synonyms": [
+						"Analog watch"
+					]
+				},
+				{
+					"value": "mens watch",
+					"synonyms": [
+						"mens watch"
+					]
+				},
+				{
+					"value": "top",
+					"synonyms": [
+						"top"
+					]
+				},
+				{
+					"value": "Vacuum Cleaner",
+					"synonyms": [
+						"Vacuum Cleaner",
+						"cleaner",
+						"vacuum cleaner"
+					]
+				},
+				{
+					"value": "Winter Wear",
+					"synonyms": [
+						"Winter wear",
+						"Winter Wear",
+						"winter wear"
+					]
+				},
+				{
+					"value": "Boys wear",
+					"synonyms": [
+						"boys wear",
+						"Boys wear"
+					]
+				},
+				{
+					"value": "Towel Rings",
+					"synonyms": [
+						"Towel Rings",
+						"towel ring"
+					]
+				},
+				{
+					"value": "holder",
+					"synonyms": [
+						"holder"
+					]
+				},
+				{
+					"value": "towel holder",
+					"synonyms": [
+						"towel holder"
+					]
+				},
+				{
+					"value": "bathroom fixtures",
+					"synonyms": [
+						"bathroom fixtures"
+					]
+				},
+				{
+					"value": "foldable wardrobe",
+					"synonyms": [
+						"foldable wardrobe",
+						"foldable wardrobes"
+					]
+				},
+				{
+					"value": "furniture",
+					"synonyms": [
+						"furniture"
+					]
+				},
+				{
+					"value": "almirah",
+					"synonyms": [
+						"almirahs",
+						"almirah"
+					]
+				},
+				{
+					"value": "mattress",
+					"synonyms": [
+						"mattress"
+					]
+				},
+				{
+					"value": "smartphone",
+					"synonyms": [
+						"smartphone",
+						"smart phone"
+					]
+				},
+				{
+					"value": "shoes",
+					"synonyms": [
+						"shoes"
+					]
+				},
+				{
+					"value": "wardrobe",
+					"synonyms": [
+						"wardrobe"
+					]
+				},
+				{
+					"value": "laptop",
+					"synonyms": [
+						"laptop",
+						"PC",
+						"lappi",
+						"Computer"
+					]
+				},
+				{
+					"value": "VivoBook",
+					"synonyms": [
+						"VivoBook",
+						"Vivo Book"
+					]
+				},
+				{
+					"value": "spouts",
+					"synonyms": [
+						"spouts"
+					]
+				},
+				{
+					"value": "jeans",
+					"synonyms": [
+						"jeans",
+						"denims"
+					]
+				}
+			]
+		}
+	],
+	"botName": "sampleBot"
+}
