@@ -3258,6 +3258,21 @@
 			"entities": []
 		},
 		{
+			"text": "Where can I meet you?",
+			"intent": "about",
+			"entities": []
+		},
+		{
+			"text": "How old are you?",
+			"intent": "about",
+			"entities": []
+		},
+		{
+			"text": "What is the best product",
+			"intent": "random_queries",
+			"entities": []
+		},
+		{
 			"text": "type of meals do you eat?",
 			"intent": "smalltalk_food",
 			"entities": []
