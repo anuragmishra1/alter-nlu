@@ -47,7 +47,7 @@ setup(
         'Flask==0.12.4',
         'nltk==3.3',
         'scikit_learn==0.20.1',
-        'tensorflow==1.12.0',
+        'tensorflow==2.5.1',
         'fuzzywuzzy==0.17.0',
         'python-Levenshtein==0.12.0'
         ],
